@@ -1,0 +1,9 @@
+services:
+  practice:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    tty: true
+    volumes:
+      - .:/home
+    working_dir: /home
