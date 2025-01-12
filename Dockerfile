@@ -4,5 +4,5 @@ RUN apt-get update && apt-get install -y \
     git \
     cmake \
     make \
-    g++-13 \
+    g++ \
     && apt-get clean
