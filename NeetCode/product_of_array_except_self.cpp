@@ -46,6 +46,7 @@ public:
 
         return result;
     }
+
     void print_vec(vector<int> &vec) {
         cout << "[";
         auto iter = vec.begin();
